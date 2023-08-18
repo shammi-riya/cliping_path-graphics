@@ -19,7 +19,7 @@ import Serviceimg8 from '../../../assets/portfolio/img8.webp'
 const Serviceportfolio  = () => {
     return (
        
-             <>
+             <div className="bg-slate-100">
             <div className='lg:max-w-7xl mx-auto w-full lg:px-0 px-5 py-20'>
                 <div className='flex justify-between items-center flex-wrap'>
                     <h4 className='text-4xl font-semibold'>Some Of Our Portfolio</h4>
@@ -58,8 +58,9 @@ const Serviceportfolio  = () => {
                     
                    
                 </div>
-            </div>
-        </>
+            </div> 
+            </div> 
+        
         
     );
 };

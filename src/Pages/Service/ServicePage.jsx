@@ -3,7 +3,6 @@ import OurPricing from "../../Component/Faq/OurPricing";
 import BannarSurvice from "../../Component/Service.jsx/BannarSurvice";
 import InstantQuote from "../../Component/Service.jsx/InstantQuote";
 import MannequinService from "../../Component/Service.jsx/MannequinService";
-// import SayClient from "../../Component/Service.jsx/SayClient";
 import ServiceOfeerd from "../../Component/Service.jsx/ServiceOfeerd";
 import ServiceWork from "../../Component/Service.jsx/ServiceWork";
 import SpecialFeature from "../../Component/Service.jsx/SpecialFeature";
@@ -16,22 +15,15 @@ const ServicePage = () => {
     return (
         <div>
             <BannarSurvice></BannarSurvice>
-            <InstantQuote></InstantQuote>
-            
-            <div className="bg-slate-100">
-            {/* <SayClient></SayClient> */}
-           <Serviceportfolio></Serviceportfolio>
-
-            </div>
+            <InstantQuote></InstantQuote>                      
+           <Serviceportfolio></Serviceportfolio>          
             <ServiceWork></ServiceWork>
             <SpecialFeature></SpecialFeature>
            <div className="bg-slate-100">
-           <MannequinService></MannequinService>
-            
+           <MannequinService></MannequinService>           
             <ServiceOfeerd></ServiceOfeerd>
             <OurPricing></OurPricing>
-            <Faq></Faq>
-            
+            <Faq></Faq>            
            </div>
            <ScrollTop></ScrollTop>
             
