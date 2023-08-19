@@ -8,9 +8,9 @@ const SpecialFeature = () => {
             style={{
                 backgroundImage: 'url("https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/hero-bg.svg")',
             }}
-            className='bg-[#1e2b52] relative bg-cover lg:h-[70vh] md:h-[100vh] sm:h-[100vh] bg-no-repeat'
+            className='bg-[#1e2b52]   bg-cover lg:h-[70vh] sm:h-[120vh] bg-no-repeat'
         >
-            <div className='absolute top-0 left-0 h-auto w-full bg-[#1e2b52] '>
+            <div className=' top-0 left-0 h-auto w-full bg-[#1e2b52] '>
                 <div className='lg:max-w-7xl mx-auto w-full lg:px-0 px-5'>
                     <div className='flex justify-center items-center'>
                         <div className='lg:flex items-center py-10 justify-between gap-6'>
@@ -33,7 +33,7 @@ const SpecialFeature = () => {
                                     'Manual Clipping',
                                     'Smooth Anchoring',
                                 ].map((feature, index) => (
-                                    <div className='flex gap-2 lg-pt-3 pt-2' key={index}>
+                                    <div className='flex lg:px-0 px-20 gap-2 lg-pt-3 pt-2' key={index}>
                                         <img
                                             src='https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg'
                                             alt=''

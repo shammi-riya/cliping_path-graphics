@@ -2,7 +2,7 @@
 
 const MannequinService = () => {
     return (
-        < div>
+        <>
             < div className="my-container">
 
                 <div className="flex flex-wrap gap-3 items-center py-20">
@@ -21,7 +21,7 @@ const MannequinService = () => {
                 </div>
 
 
-                <div className="grid gap-7 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1">
+                <div className="grid gap-7 lg:px-5 md:px-20 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1">
                     <div  style={{  borderRadius: '0 30px' ,border:" 1px solid #dfe1eb"}}
                     className="bg-[#f5f6fb] space-y-3 lg:p-8 p-4">
                          <div className="flex gap-4 items-center">
@@ -84,7 +84,7 @@ const MannequinService = () => {
 
             </div>
         </div>
-        </div>
+        </>
     );
 };
 
