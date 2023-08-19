@@ -1,3 +1,4 @@
+import Clientsay from "../../Component/Clientsay";
 import Faq from "../../Component/Faq/Faq";
 import OurPricing from "../../Component/Faq/OurPricing";
 import BannarSurvice from "../../Component/Service.jsx/BannarSurvice";
@@ -15,8 +16,11 @@ const ServicePage = () => {
     return (
         <div>
             <BannarSurvice></BannarSurvice>
-            <InstantQuote></InstantQuote>                      
-           <Serviceportfolio></Serviceportfolio>          
+            <InstantQuote></InstantQuote>  
+            <div className="bg-slate-100">
+            <Clientsay></Clientsay>                    
+           <Serviceportfolio></Serviceportfolio>
+            </div>          
             <ServiceWork></ServiceWork>
             <SpecialFeature></SpecialFeature>
            <div className="bg-slate-100">

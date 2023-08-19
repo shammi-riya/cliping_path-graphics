@@ -16,53 +16,55 @@ import Serviceimg7 from '../../../assets/portfolio/img7.webp'
 import ServiceHoverimg8 from '../../../assets/portfolio/img9-h.webp'
 import Serviceimg8 from '../../../assets/portfolio/img8.webp'
 
-const Serviceportfolio  = () => {
+const Serviceportfolio = () => {
     return (
-       
-             <div className="bg-slate-100">
-            <div className='lg:max-w-7xl mx-auto w-full lg:px-0 px-5 py-20'>
-                <div className='flex justify-between items-center flex-wrap'>
+
+        <>
+            <div className='my-container '>
+
+                <div className="flex justify-between  items-center w-full">
                     <h4 className='text-4xl font-semibold'>Some Of Our Portfolio</h4>
-                    <button 
-                    className='py-2 lg:mt-0 mt-3 px-4 rounded-xl text-md lg:py-3 lg:px-5 lg:rounded-3xl lg:text-lg font-bold border-2 border-[#ff8a00] text-black transition-all duration-300 ease-in-out hover:bg-[#ff8a00] hover:border-[#ff8a00] hover:text-white'>
+                    <button
+                        className='py-2 lg:mt-0 mt-3 px-4 rounded-xl text-md lg:py-3 lg:px-5 lg:rounded-3xl lg:text-lg font-bold border-2 border-[#ff8a00] text-black transition-all duration-300 ease-in-out hover:bg-[#ff8a00] hover:border-[#ff8a00] hover:text-white'>
                         See All Work
                     </button>
                 </div>
 
-                <div className='grid lg:grid-cols-4 py-12 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-5 mb-2'>
+
+                <div className='grid lg:grid-cols-4 grid-cols-1 py-12 md:grid-cols-3 sm:grid-cols-2 gap-5 mb-2'>
                     <div className='bg-[#fff] shadow-sm overflow-hidden' style={{ borderRadius: '5px 50px 5px 50px' }}>
                         <ServiceImageOverlay src={Serviceimg1} alt='Image 1' overlaySrc={ServiceHoverimg1} />
                     </div>
                     <div className='bg-[#fff] shadow-sm overflow-hidden' style={{ borderRadius: '5px 50px 5px 50px' }}>
-                        <ServiceImageOverlay  src={Serviceimg2} alt='Image 2' overlaySrc={ServiceHoverimg2} />
+                        <ServiceImageOverlay src={Serviceimg2} alt='Image 2' overlaySrc={ServiceHoverimg2} />
                     </div>
                     <div className='bg-[#fff] shadow-sm overflow-hidden' style={{ borderRadius: '5px 50px 5px 50px' }}>
                         <ServiceImageOverlay src={Serviceimg5} alt='Image 1' overlaySrc={ServiceHoverimg5} />
                     </div>
                     <div className='bg-[#fff] shadow-sm overflow-hidden' style={{ borderRadius: '5px 50px 5px 50px' }}>
-                        <ServiceImageOverlay  src={Serviceimg2} alt='Image 2' overlaySrc={ServiceHoverimg2} />
+                        <ServiceImageOverlay src={Serviceimg2} alt='Image 2' overlaySrc={ServiceHoverimg2} />
                     </div>
                     <div className='bg-[#fff] shadow-sm overflow-hidden' style={{ borderRadius: '5px 50px 5px 50px' }}>
                         <ServiceImageOverlay src={Serviceimg4} alt='Image 1' overlaySrc={ServiceHoverimg4} />
                     </div>
                     <div className='bg-[#fff] shadow-sm overflow-hidden' style={{ borderRadius: '5px 50px 5px 50px' }}>
-                        <ServiceImageOverlay  src={Serviceimg8} alt='Image 2' overlaySrc={ServiceHoverimg8} />
+                        <ServiceImageOverlay src={Serviceimg8} alt='Image 2' overlaySrc={ServiceHoverimg8} />
                     </div>
                     <div className='bg-[#fff] shadow-sm overflow-hidden' style={{ borderRadius: '5px 50px 5px 50px' }}>
                         <ServiceImageOverlay src={Serviceimg6} alt='Image 1' overlaySrc={ServiceHoverimg6} />
                     </div>
                     <div className='bg-[#fff] shadow-sm overflow-hidden' style={{ borderRadius: '5px 50px 5px 50px' }}>
-                        <ServiceImageOverlay  src={Serviceimg7} alt='Image 2' overlaySrc={ServiceHoverimg7} />
+                        <ServiceImageOverlay src={Serviceimg7} alt='Image 2' overlaySrc={ServiceHoverimg7} />
                     </div>
-                    
-                    
-                   
+
+
+
                 </div>
-            </div> 
-            </div> 
-        
-        
+            </div>
+        </>
+
+
     );
 };
 
-export default Serviceportfolio ;
+export default Serviceportfolio;
