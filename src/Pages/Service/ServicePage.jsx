@@ -9,7 +9,7 @@ import ServiceWork from "../../Component/Service.jsx/ServiceWork";
 import SpecialFeature from "../../Component/Service.jsx/SpecialFeature";
 
 import Serviceportfolio from "../../Component/Service/ServicePortfolio/Serviceportfolio ";
-import ScrollTop from "../../Reusable/ScrollTop";
+
 
 
 const ServicePage = () => {
@@ -29,7 +29,7 @@ const ServicePage = () => {
             <OurPricing></OurPricing>
             <Faq></Faq>            
            </div>
-           <ScrollTop></ScrollTop>
+           
             
         </div>
     );
