@@ -8,7 +8,7 @@ const Footer = () => {
 
 
         <section className="bg-white">
-            <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+            <div className="max-w-screen-xl px-4 pt-20 pb-10 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
                 <div className='flex justify-center items-center'>
                     <img src={logo} alt="" />
                 </div>
