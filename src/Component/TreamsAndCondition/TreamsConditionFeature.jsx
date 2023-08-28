@@ -1,21 +1,22 @@
-
+import featureimg from '../../assets/termscondition/flim.webp'
 import FeatureList from '../../Reusable/FeatureList';
-import specialfeatureimg from '../../assets/feature/ghost-manniquin.webp';
 
-const SpecialFeature = () => {
+const TreamsConditionFeature = () => {
+
 
 
     const featureListItem=[
-        'Ghost Mannequin Neck Joint Services',
-        '3D Ghost Mannequin',
         'Product Shadow Service',
         'Color Correction and Modification',
         'Realistic and Natural Shadow',
         'Drop Shadow',
         'Reflection Shadow',
         'Manual Clipping',
-        'Smooth Anchoring',
+       
     ]
+
+
+
     return (
         <div
             style={{
@@ -29,7 +30,7 @@ const SpecialFeature = () => {
                         <div className='lg:flex items-center py-10 justify-between gap-6'>
                             <FeatureList
                             featureListItem={featureListItem}
-                            specialfeatureimg={specialfeatureimg}
+                            specialfeatureimg={featureimg}
                             >
 
                             </FeatureList>
@@ -41,4 +42,4 @@ const SpecialFeature = () => {
     );
 };
 
-export default SpecialFeature;
+export default TreamsConditionFeature;

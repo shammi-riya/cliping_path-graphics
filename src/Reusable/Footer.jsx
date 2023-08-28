@@ -105,7 +105,8 @@ const Footer = () => {
                             </Link>
                         </div>
                         <div className="px-5 font-semibold text-[#8A94A6]">
-                            <Link className="text-lg  mb-2 cursor-pointer hover:text-[#ff8a00] transition-all duration-300 ease-in-out leading-6  text-[#4f5864]">
+                            <Link to='/treamsCondition'
+                            className="text-lg  mb-2 cursor-pointer hover:text-[#ff8a00] transition-all duration-300 ease-in-out leading-6  text-[#4f5864]">
                                 Terms And Condition
                             </Link>
                         </div>
